@@ -1,0 +1,23 @@
+let menu = document.querySelector('.btn-menu')
+let nav = document.querySelector('nav')
+let close = document.querySelector('.close')
+let buscar = document.querySelector('.buscar')
+let data = document.querySelector('.data')
+let pet = document.querySelector('.pet')
+let cliente = document.querySelector('.cliente')
+let vet = document.querySelector('.vet')
+let ajustes = document.querySelector('.ajustes')
+let footer = document.querySelector('.footer')
+
+menu.addEventListener('click',()=>{
+  nav.classList.toggle('open')
+  close.classList.toggle('hide')
+  buscar.classList.toggle('hide')
+  data.classList.toggle('hide')
+  pet.classList.toggle('hide')
+  cliente.classList.toggle('hide')
+  vet.classList.toggle('hide')
+  ajustes.classList.toggle('hide')
+  footer.classList.toggle('hide')
+  
+})
